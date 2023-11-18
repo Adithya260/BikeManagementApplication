@@ -1,0 +1,19 @@
+
+<!-- details.component.html -->
+
+<div class="details">
+    <span id="close" (click)="closeDetails()">&times;</span>
+    <img [src]="bike.imageUrl" alt="Bike Details">
+    <h2>{{ bike.name }}</h2>
+    <div class="config">
+        <p><strong>Model:</strong> {{ bike.model }}</p>
+        <p><strong>Color:</strong> {{ bike.color }}</p>
+        <p><strong>Price:</strong> ${{ bike.price }}</p>
+        <p><strong>Specification: </strong>{{ bike.specification}}</p>
+        <!-- Add more configuration details as needed -->
+    </div>
+    <button  (click)="Buy()">Buy</button>
+</div>
+
+
+

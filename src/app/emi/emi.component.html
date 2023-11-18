@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>EMI Calculator - Calculate Your Bike Loan EMI</h1>
+    
+    <div class="input-section">
+      <label for="loanAmount">Loan Amount (₹)</label>
+      <input type="number" id="loanAmount" [(ngModel)]="loanAmount">
+      
+      <label for="interestRate">Rate Of Interest (%)</label>
+      <input type="number" id="interestRate" [(ngModel)]="interestRate">
+      
+      <label for="tenureYears">Tenure (years)</label>
+      <input type="number" id="tenureYears" [(ngModel)]="tenureYears" max="7" (change)="calculateEMI()">
+      
+      <button (click)="calculateEMI()">Calculate EMI</button>
+    </div>
+    
+    <div class="result-section">
+      <h2>EMI Results</h2>
+      <table>
+        <tr>
+          <th>Months</th>
+          <th>Monthly EMI</th>
+        </tr>
+        <tr *ngFor="let result of emiResults">
+          <td>{{ result.months }}</td>
+          <td>₹ {{ result.emi.toFixed(0) }}/-</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  

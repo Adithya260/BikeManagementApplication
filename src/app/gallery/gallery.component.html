@@ -1,0 +1,29 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Gallery</title>
+
+</head>
+<body>
+
+<div class="gallery" id="gallery">
+    <div *ngFor="let bike of bikes" >
+ 
+        <img [src]="bike.imageUrl" alt="{{ bike.name }}">
+   
+</div>
+</div>
+
+<div id="details">
+    <span id="close" onclick="closeDetails()">&times;</span>
+    <img id="detailsImage" src="" alt="Bike Details">
+</div>
+
+
+</body>
+</html>
+

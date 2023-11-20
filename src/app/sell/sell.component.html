@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Angular App</title>
+  
+</head>
+<body>
+
+<div class="showroom-introduction">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWvzqv2k8zWT_9ihVMmDNnmF0Y7zCKzdpiq13JIrOgNjgpCLxvtbrmnv3K9XwBOZ1ZQg&usqp=CAU" alt="image" class="image">
+    <h2>Welcome to Our Second Hand Bike Showroom!</h2>
+    <p>
+      Explore our collection of high-quality second-hand bikes. Whether you're looking for a stylish cruiser or a reliable commuter, we have a variety of options to suit your needs.
+      Fill out the form below to sell your bike and be a part of our community!
+    </p>
+  </div>
+<!-- sell-form.component.html -->
+<div class="sell-form-container">
+    <h3>Want to Sell Your Bike?</h3>
+<div class="modal-background" [class.active]="showModal">
+
+    <div class="modal-content">
+        <button class="close-button" (click)="toggleModal()">X</button> <!-- Close button added here -->
+<form (ngSubmit)="onSubmit()" >
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" [(ngModel)]="sellFormData.name" required>
+  
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" [(ngModel)]="sellFormData.phone" required>
+
+    <label for="userEmail">Your Email:</label>
+    <input type="email" id="userEmail" name="userEmail" [(ngModel)]="sellFormData.userEmail" required>
+  
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" [(ngModel)]="sellFormData.address" required></textarea>
+  
+    <label for="brand">Vehicle Brand:</label>
+    <input type="text" id="brand" name="brand" [(ngModel)]="sellFormData.brand" required>
+  
+    <label for="model">Vehicle Model:</label>
+    <input type="text" id="model" name="model" [(ngModel)]="sellFormData.model" required>
+  
+    <label for="photo">Vehicle Photo:</label>
+    <input type="file" id="photo" name="photo" (change)="onFileSelected($event)" accept="image/*" required>
+  
+    <button type="submit">Submit</button>
+  </form>
+    </div>
+</div>
+</div>
+<button (click)="toggleModal()">Click Here</button>
+</body>
+</html>

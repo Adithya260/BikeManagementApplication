@@ -18,6 +18,7 @@ import { DetailsComponent } from './details/details.component';
 import { EmiComponent } from './emi/emi.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { SellComponent } from './sell/sell.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { GalleryComponent } from './gallery/gallery.component';
           DetailsComponent,
           EmiComponent,
           ContactComponent,
-          GalleryComponent
+          GalleryComponent,
+          SellComponent
   ],
   imports: [
     BrowserModule,

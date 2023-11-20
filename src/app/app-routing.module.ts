@@ -6,6 +6,7 @@ import { DetailsComponent } from './details/details.component';
 import { EmiComponent } from './emi/emi.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { SellComponent } from './sell/sell.component';
 
 
 
@@ -18,6 +19,7 @@ const routes: Routes = [
 {path:'emi',component:EmiComponent},
 {path:'gallery',component:GalleryComponent},
 {path:'contact',component:ContactComponent},
+{path:'sell',component:SellComponent},
 
 ];
 

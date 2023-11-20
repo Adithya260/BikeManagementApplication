@@ -15,6 +15,12 @@ export class GalleryComponent {
     { name: 'Bike 5', imageUrl: 'assets/bike5.jpg', model: 'Mountain Bike', color: 'Red', price: 1200 ,specification:'good bike'},
     { name: 'Bike 6', imageUrl: 'assets/bike6.jpg', model: 'Road Bike', color: 'Blue', price: 1500,specification:'good bike' },
     { name: 'Bike 7', imageUrl: 'assets/bike7.jpg', model: 'Hybrid Bike', color: 'Green', price: 1000,specification:'good bike' },
+    { name: 'Honda Dio', imageUrl: 'assets/dioh.jpg', model: 'Hybrid Bike', color: 'Green', price: 1000,specification:'good bike' },
+    { name: 'Hero Duet', imageUrl: 'assets/duet.jpg', model: 'Hybrid Bike', color: 'Green', price: 1000,specification:'good bike' },
+    { name: 'Activa Honda', imageUrl: 'assets/activa.jpg', model: 'Hybrid Bike', color: 'Green', price: 1000,specification:'good bike' },
+    { name: 'Access 125', imageUrl: 'assets/access.jpg', model: 'Hybrid Bike', color: 'Green', price: 1000,specification:'good bike' },
+    { name: 'Fasino', imageUrl: 'assets/fasino.jpg', model: 'Hybrid Bike', color: 'Green', price: 1000,specification:'good bike' },
+    { name: 'StreetRally', imageUrl: 'assets/streetrally.jpg', model: 'Hybrid Bike', color: 'Green', price: 1000,specification:'good bike' },
     // Add more bikes as needed
   ];
 

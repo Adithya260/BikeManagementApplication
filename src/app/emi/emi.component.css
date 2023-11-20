@@ -1,15 +1,19 @@
 .container {
     width: 80%;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   
   h1, h2 {
     text-align: center;
+ 
   }
   
   .input-section {
     margin-top: 20px;
+    padding: 25px;
+    border: 1px solid rgb(75, 73, 73);
+    background-color:linen;
   }
   
   label {
@@ -21,6 +25,7 @@
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
+  
   }
   
   button {
@@ -41,11 +46,19 @@
     border-collapse: collapse;
     margin-top: 20px;
     margin-bottom: 1rem;
+   
   }
   
-  th, td {
-    border: 1px solid #ddd;
+   td {
+    border: 2px solid #a5a5a5;
     padding: 8px;
     text-align: left;
+    background-color: azure;
+  }
+  th {
+    border: 2px solid #8d8d8d;
+    padding: 8px;
+    text-align: left;
+    background-color: rgb(80, 181, 221);
   }
   

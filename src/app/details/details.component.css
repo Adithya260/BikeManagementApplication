@@ -10,11 +10,20 @@
     top: 0;
     left: 0;
     width: 100%;
+    font-weight: 400;
+    font-size: 16px;
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
   }
-  
+  .config{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
   .details img {
     max-width: 80%;
     max-height: 80%;
@@ -28,10 +37,27 @@
     margin-top: 20px;
     margin-right: 20px;
     align-self: flex-end;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border-radius: 1rem;
   }
-  
-
-
+  #close:hover{
+    opacity: 0.75;
+  }
+  .buybutton{
+    background-color: #25b32a;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .buybutton:hover {
+    background-color: #0f7014;
+  }
 
 
 
@@ -81,4 +107,31 @@
   margin: 0 3px;
   cursor: pointer;
   font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .config {
+      margin-left: 2rem;
+      margin-right: 2rem;
+  }
+
+  #close {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-right: 10px;
+  }
+
+  .buybutton {
+      font-size: 12px;
+      padding: 10px 14px;
+      margin-top: 1rem;
+  }
+
+  .rightArrow,
+  .leftArrow {
+      font-size: 30px;
+  }
+
+  .dot {
+      font-size: 16px;
+  }
 }

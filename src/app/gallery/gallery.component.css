@@ -9,6 +9,11 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    height: 500px;
+    padding: 20px;
+    background-color:rgb(204, 203, 203);
+    border: 2px solid black;
+    overflow: scroll;
     justify-content: space-around;
     margin: 20px;
 }

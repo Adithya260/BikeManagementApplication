@@ -9,7 +9,7 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: 550px;
     padding: 20px;
     background-color:rgb(204, 203, 203);
     border: 2px solid black;
@@ -44,6 +44,22 @@ body {
     max-width: 80%;
     max-height: 80%;
     border-radius: 8px;
+}
+
+.nextbutton{
+    background-color:rgb(201, 200, 200);
+    padding: 4px 8px;
+    border-radius: 1rem;
+float: right;
+margin-right: 3rem;
+    font-size: 20px;
+    font-style: bold;
+    color:black;
+    
+}
+.nextbutton:hover{
+    background-color: azure;
+    
 }
 
 #close {

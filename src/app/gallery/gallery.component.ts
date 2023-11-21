@@ -25,4 +25,8 @@ export class GalleryComponent {
   ];
 
   constructor(private router: Router) {}
+
+  gotobuy(){
+    this.router.navigate(['/buy']);
+  }
 }

@@ -9,7 +9,7 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: 550px;
     padding: 20px;
     background-color:rgb(223, 221, 221);
     border: 2px solid black;

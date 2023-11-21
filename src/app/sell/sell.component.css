@@ -1,12 +1,8 @@
 /* sell-form.component.css */
 /* sell-form.component.css */
-body{
-background-color: rgb(241, 241, 241);
-height: 600px;
 
-}
 .image{
-    margin-top: 20px;
+   
     width: 40%;
     height: 50%;
 }
@@ -49,7 +45,7 @@ height: 600px;
   /* Styles for the modal content */
   .modal-content {
     background:ghostwhite;
-    max-width: 900px;
+    max-width: 600px;
     padding: 20px;
     border-radius: 8px;
     border:2px solid rgb(87, 83, 83);
@@ -67,16 +63,16 @@ height: 600px;
   
   /* Apply the rest of your form styles */
   form {
-    width: 500px;
+    width: 550px;
     border:2px solid rgb(87, 83, 83);
     align-items: center;
     padding: 20px;
     margin-top: 2rem;
- 
+ align-items: center;
     border-radius: 8px;
     box-shadow: none;
-    
-    background-color: snow;
+   
+
    
 
     
@@ -86,6 +82,7 @@ height: 600px;
   label {
     display: block;
     margin-bottom: 8px;
+    font-style: bold;
   }
   
   input[type="text"],
@@ -97,7 +94,8 @@ height: 600px;
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
-    
+    font-size: 14px;
+    color: black;
   }
   
  

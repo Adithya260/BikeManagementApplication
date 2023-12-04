@@ -21,7 +21,7 @@
           <th>Months</th>
           <th>Monthly EMI</th>
         </tr>
-        <tr *ngFor="let result of emiResults">
+        <tr *ngFor="let result of emiResults" >
           <td>{{ result.months }}</td>
           <td>₹ {{ result.emi.toFixed(0) }}/-</td>
         </tr>

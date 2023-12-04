@@ -45,7 +45,7 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
    
   }
   
@@ -54,6 +54,7 @@
     padding: 8px;
     text-align: left;
     background-color: azure;
+   
   }
   th {
     border: 2px solid #8d8d8d;
@@ -61,4 +62,6 @@
     text-align: left;
     background-color: rgb(80, 181, 221);
   }
-  
+  .result-section{
+    margin-bottom: 3rem;
+  }
